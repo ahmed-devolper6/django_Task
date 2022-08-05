@@ -1,0 +1,4 @@
+<h1>blog</h1>
+{% for x in ahmed%}
+    <h3><a href="{% url 'single_post' x.id %}">{{x}}</a></h3>
+{% endfor %}
